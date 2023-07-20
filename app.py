@@ -8,7 +8,7 @@ import os
 app = Flask(__name__)
 load_dotenv()
 
-connection_string = "mongodb+srv://mric1234:mric1234@cluster0.wjwkw.gcp.mongodb.net/?retryWrites=true&w=majority"
+connection_string = "mongodb+srv://<user>:<password>@cluster0.wjwkw.gcp.mongodb.net/?retryWrites=true&w=majority"
 database = "python-starter"
 db_collection = "user"
 
